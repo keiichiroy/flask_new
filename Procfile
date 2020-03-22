@@ -1,1 +1,1 @@
-web: python hello.py
+web: waitress-serve "hello:app"
