@@ -8,4 +8,4 @@ def hello_world():
 
 if __name__ == '__main__':
     # waitress.serve(app, port=5000, url_scheme='http')
-    waitress.serve(app)
+    waitress.serve(app, host="0.0.0.0")
