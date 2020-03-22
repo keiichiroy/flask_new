@@ -14,7 +14,7 @@ pipenv install
 ---
 Waitressはデフォルト8080番ポートで動作
 
-```Python
+```bash
 pipenv run waitress-serve --host 0.0.0.0 hello:app
 ```
 
