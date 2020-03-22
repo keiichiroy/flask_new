@@ -1,1 +1,1 @@
-web: python hello.py
+web: pipenv run python hello.py
